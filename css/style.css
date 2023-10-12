@@ -127,7 +127,7 @@ button {
 .cards-container{
     display: flex;
     padding: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -167,3 +167,31 @@ button {
     font-size: 25px;
     font-weight: bold;
 }
+
+.section4{
+    padding: 60px;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.cta-left h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.cta-left p{
+    color: #E5E7EB;
+}
+
+.cta-right button{
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+}
+
