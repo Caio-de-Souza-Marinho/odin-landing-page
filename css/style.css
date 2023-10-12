@@ -28,6 +28,12 @@ a {
     text-decoration: none;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .section1,
 .footer {
     background-color: #1F2937;
@@ -195,3 +201,18 @@ button {
     border-radius: 6px;
 }
 
+.footer{
+    flex-grow: 0;
+    padding: 60px;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.section4{
+    flex: 1;
+}
